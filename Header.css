@@ -1,0 +1,24 @@
+/* Nav.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.logo {
+    height: 50px; /* Adjust based on your logo's size */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Creates space between the links */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000; /* Adjust the color as needed */
+}
